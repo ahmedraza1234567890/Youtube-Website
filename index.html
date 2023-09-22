@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <title>Youtube Website</title>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- 1st nav -->
+  <div class="bg"></div>
+  <nav class="d-flex justify-content-around navbar navbar-expand-lg navbar-light" id="nav-1">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <i class="fa-solid fa-bars me-4 ms-4"> </i><img src="./logo.png" alt="" width="100px"></a>
+
+
+      <form class="d-flex">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search" size="70">
+        <button class="btn btn-outline-secondary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="btn btn-outline-secondary ms-3" type="submit" style="border-radius: 50%;"><i
+            class="fa-solid fa-microphone"></i></button>
+      </form>
+      <div>
+        <ul class="d-flex navbar-nav ms-auto mb-2 mb-lg-0 me-2">
+          <li class="nav-item">
+            <a class="nav-link me-3" aria-current="page" href="#"><i class="fa-solid fa-video"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-3" href="#"><i class="fa-regular fa-bell"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="./gmail-logo.jpg" alt=""
+                style="border-radius: 50%; width: 25px;"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+  <!-- 2nd-nav -->
+  <nav class= " navbar navbar-expand-lg fs-5 navbar-light" id="nav-2" style="padding-left: auto; padding-right: auto;">
+    <div class="container ps-5 ">
+      <div class=" collapse navbar-collapse ps-5" id="navbarNav">
+        <ul class="navbar-nav ps-5">
+          <li class="nav-item">
+            <button class="btn btn-light me-3">
+              ALL</button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-light me-3">
+              Music</button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-light me-3">
+              Mixes</button>
+          </li>
+          <li class="nav-item ">
+            <button class="btn btn-light me-3">
+              Computers</button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-light me-3">
+              Pakistani Dramas</button>
+          </li>
+          <li class="nav-item ">
+            <button class="btn btn-light me-3">
+              Draemedy</button>
+          </li>
+          <li class="nav-item ">
+            <button class="btn btn-light me-3">
+              Naat</button>
+          </li>
+          <li class="nav-item ">
+            <button class="btn btn-light me-3">
+              Bayyan</button>
+          </li>
+          <li class="nav-item ">
+            <button class="btn btn-light me-3">
+              Ghazal</button>
+          </li>
+          <li class="nav-item ">
+            <button class="btn btn-light me-3">
+              News</button>
+          </li>
+          <li class="nav-item ">
+            <button class="btn btn-light me-3">
+              Gaming</button>
+          </li>
+          <li class="nav-item ">
+            <button class="btn btn-light me-3">
+              Tilawat</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- sider -->
+  <div class="container-fluid">
+    <div>
+      <div id="scrollbar">
+
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-solid fa-house pe-3 "></i>Home</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-solid fa-video pe-3 "></i>Shorts</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-brands fa-youtube pe-3 "></i>Subscriptions</span></button>
+        <hr>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-solid fa-photo-film pe-3 "></i>Libary</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-solid fa-clock-rotate-left pe-3 "></i><span>History</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-brands fa-square-youtube pe-3"></i>Your
+            videos</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-regular fa-clock pe-3 "></i>Watch later</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-solid fa-download pe-3 "></i>Downloads</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-regular fa-thumbs-up pe-3"></i>Liked videos</span></button>
+        <hr>
+        <h5>Subscriptions</h5>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;">
+            <img src="./ameerahlesunnat.jpg" alt="" width="25px" style="border-radius: 50%; margin-right: 15px;">Maulana
+            Ilyas Qadri</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><img src="./rizwan.jpg" alt="" width="25px"
+              style="border-radius: 50%; margin-right: 15px;">Rizwan Bhatti</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><img src="./dawatesilami.jpg" alt="" width="25px"
+              style="border-radius: 50%; margin-right: 15px;">Dawateislami</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><img src="./madani.jpg" alt="" width="25px"
+              style="border-radius: 50%; margin-right: 15px;">Madani Channel</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><img src="./tech.jpg" alt="" width="25px"
+              style="border-radius: 50%; margin-right: 15px;">Techniziya</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><img src="./tahir.jpg" alt="" width="25px"
+              style="border-radius: 50%; margin-right: 15px;">Hafiz Tahir Qadri</span></button>
+        <hr>
+        <h5>Explore</h5>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-solid fa-leaf me-3"></i>Tranding</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-solid fa-music me-3"></i>Music</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-solid fa-gamepad me-3"></i>Gaming</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-solid fa-newspaper me-3"></i>News</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-solid fa-trophy me-3"></i>Sports</span></button>
+        <hr>
+        <h5>More from Youtube</h5>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><img src="./you-prem.png" alt="" width="50px"
+              style="border-radius: 50%; margin-right: 5px;">Youtube Premium</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><img src="./you-stu.png" alt="" width="25px"
+              style="border-radius: 50%; margin-right: 15px;">Youtube Studio</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><img src="./you-music.png" alt="" width="25px"
+              style="border-radius: 50%; margin-right: 15px;">Youtube Music</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><img src="./you-kids.png" alt="" width="25px"
+              style="border-radius: 50%; margin-right: 15px;">Youtube Kids</span></button>
+        <hr>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-solid fa-gear pe-3 "></i>Setting</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-regular fa-flag pe-3 "></i>Report history</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-regular fa-circle-question pe-3 "></i>Help</span></button>
+        <button class="btn btn-outline-light" style="width: 100%;">
+          <span style="color: black;"><i class="fa-regular fa-message pe-3 "></i>Send Feedback</span></button>
+        <hr>
+        <p class="ms-3">About Press Copyright <br> Countact us Creators <br>Adverties Developers <br> <br> Terms
+          Privacy Policy & Safety <br>How Youtube works <br>Test new features <br><br> © 2023 Google LLC</p>
+        <br><br><br>
+      </div>
+    </div>
+    <div class="container-fluid" style="width: 95%;">
+      <div id="content" class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-50">
+            <a target="_blank" href="https://www.youtube.com/watch?v=7QSKIZUZEJc">
+              <img src="./con1.webp" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Madani Muzakra Ep2247 | 30th Safar Ul Muzaffar 1445Hijri | 16th September 2023 |
+                Maulana Ilyas Qadri</h5>
+              <p class="card-text">Madani Channel <br>55K views
+                2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-50">
+            <a target="_blank" href="https://www.youtube.com/watch?v=vgmgAdAu2ew">
+              <img src="./con2.webp" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Jagha Ji Lagane ki Duniya Nhi Hai - Ghulam Mustafa Qadri</h5>
+              <p class="card-text">Ghulam Mustufa Qadri <br>55K views
+                2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-50">
+            <a target="_blank" href="https://www.youtube.com/watch?v=7rfZLkG6lQ0">
+              <img src="./con3.webp" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">New Manqabat 2023 | Maslak-e-Ala Hazrat Salamat Rahe | Hafiz Tahir Qadri | Zeeshan
+                Qadri | Jami Raza</h5>
+              <p class="card-text">Voice of IDS <br>55K views
+                2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-50">
+            <a target="_blank" href="https://www.youtube.com/watch?v=KQh175tYyGM">
+              <img src="./con4.webp" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">TikTokers at Faizan e Madina | Q&A Session | Maulana Imran Attari & Abdul Habib
+                Attari | Meetup 2023</h5>
+              <p class="card-text"> Maulana Imran Attari <br>55K views
+                2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-50">
+            <a target="_blank" href="https://www.youtube.com/watch?v=MFFf6taVzwA">
+              <img src="./con5.webp" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Mola Ki Rehmaton Ka Khazina || Jashn e Fareed by Syed Hasan Ali Qadri</h5>
+              <p class="card-text">Syed Hassan Ali Qadri <br>55K views
+                2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-50">
+            <a target="_blank" href="https://www.youtube.com/watch?v=1ty1rIL56lU">
+              <img src="./con6.webp" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Kalam e Aala Hazrat | Kabe Ke Badrudduja | Hafiz Tahir Qadri | Allama Bilal Qadri |
+                Syed Rehan Qadri</h5>
+              <p class="card-text">Voice of IDS <br>55K views
+                2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-50">
+            <a target="_blank" href="https://www.youtube.com/watch?v=-Rp1Mjq5F5M">
+              <img src="./con7.webp" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Super hit new 12 Rabbi Ul Awal Naat Sharif 2023|| Marhaba Ya Mustafa | Sayed Hassan
+                ullah Hussaini</h5>
+              <p class="card-text">Haroon Editz <br>55K views
+                2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-50">
+            <a target="_blank" href="https://www.youtube.com/watch?v=YpSfM_MDZJw">
+              <img src="./con8.webp" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">New Rabi ul Awal Naat 2023 - Ya Nabi ﷺ Nazre Karam Farmana - Aye Hasnain Ke Nana -
+                Hafiz Tahir Qadri</h5>
+              <p class="card-text">Hafiz Tahir Qadri <br>55K views
+                2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-50">
+            <a target="_blank" href="https://www.youtube.com/watch?v=wuSezXZZu0A">
+              <img src="./con9.webp" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Maulana Ilyas Qadri Chand Dekhty Huye | Rabi Ul Awwal Special | Eid Milad un Nabi |
+                Milad Juloos</h5>
+              <p class="card-text">Maulana Ilyas Qadri <br>55K views
+                2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-50">
+            <a target="_blank" href="https://www.youtube.com/watch?v=JLkCad_qAng">
+              <img src="./con10.webp" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">New Naat - Ghulam Mustafa Qadri - Kabay Ki Ronaq - Official Video - Heera Gold</h5>
+              <p class="card-text"> Heera Gold <br>55K views
+                2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-50">
+            <a target="_blank" href="https://www.youtube.com/watch?v=difAA-SE7ww">
+              <img src="./con11.webp" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Huzoor Meri To Sari Bahar | By | Zohaib Ashrafi | AstanaeJunaidiyaQadriya 2021</h5>
+              <p class="card-text"> Astana-e-JunaidiyaQadriya<br>55K views
+                2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-50">
+            <a target="_blank" href="https://www.youtube.com/watch?v=GjnaYA_BcQc">
+              <img src="./con12.webp" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">New Heart Touching Naat || Hou Karam Sarkar || Syed Hassan Ullah Hussaini || Heera
+                Gold</h5>
+              <p class="card-text">Heera Gold<br>55K views
+                2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>
